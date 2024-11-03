@@ -14,7 +14,10 @@ Create pull request - https://github.com/Kamalesh9483/dummy/pull/1
 Files changed -> comment, if fixed -> Merge pull request
 
 #########
-
+git pull origin main
 git stash
-
-#change in origin
+git stash apply 'stash@{0}'
+handle merge conflicts
+git commit -m "changes"
+git push origin branch1
+In repo - Pull request
