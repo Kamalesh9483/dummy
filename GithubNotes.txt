@@ -6,4 +6,13 @@ git fetch --all
 git checkout main
 git pull origin main
 git checkout -b branch1
-##
+git add .
+git commit -m "GithubNotes added"
+git push -u origin branch1
+Compare and pull request
+Create pull request - https://github.com/Kamalesh9483/dummy/pull/1
+Files changed -> comment, if fixed -> Merge pull request
+
+#########
+
+git stash
