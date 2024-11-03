@@ -1,0 +1,8 @@
+git init
+git remote add origin https://github.com/Kamalesh9483/dummy.git
+git branch
+git fetch --all
+
+git checkout main
+git pull origin main
+git checkout -b branch1
